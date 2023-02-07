@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+  font-family:'Source Sans Pro', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
+.login-page {
+ 
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url('../assets/images/login-background.svg'); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect-wallet {
+  width: 452px;
+  height: 572px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.connect-wallet h1 {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #202020;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.connect-wallet p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #727272;
+  text-align: center;
+}
+.connect-wallet-button {
+  cursor: pointer;
+  padding: 12px 0px;
+  width: 348px;
+  border-radius: 12px;
+  background-color: #6418c3;
+  color: #ffffff;
+  border: 1px solid #6418c3;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 12%);
+}
+.metamask {
+  padding: 30px 50px;
+  border: 2px solid #6418c3;
+  border-radius: 10px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+.metamask p {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  color: #202020;
+  margin: 0;
+}
+.css-1puh3cy-MuiPaper-root-MuiAppBar-root {
+  background-color: #E8EAEE;
+}
+.css-pvs8g6-MuiTableCell-root{
+  background-color: #36444e!important;
+  color: white!important;
+}
+.css-1atybmz-MuiPaper-root-MuiCard-root {
+  background-color: #016533;
+  color: white;
+  
+}
+.css-1j5s3cl {
+  color: white;
+  background-image: linear-gradient(135deg, rgba(16, 57, 150, 0) 0%, rgb(235 235 235 / 24%) 100%);
+}
+.css-1r2sc2d-MuiPaper-root-MuiCard-root {
+  background-color: #016533;
+}
+.css-189e0nv {
+  color: white;
+  background-image: linear-gradient(135deg, rgba(16, 57, 150, 0) 0%, rgb(235 235 235 / 24%) 100%);
+}
+.css-uwgp8g-MuiTypography-root {
+  color:white;
+  
+}
+.css-xdwdn3-MuiPaper-root-MuiCard-root {
+  background-color: #016533;
+  color: white;
+}
+.css-1xire6z-MuiPaper-root-MuiCard-root {
+  color: white;
+  background-color: #016533;
+}
+.css-8145p1 {
+  background-image: linear-gradient(135deg, rgba(16, 57, 150, 0) 0%, rgb(235 235 235 / 24%) 100%);
+  color: white;
+}
+.css-i13vcv{
+  background-image: linear-gradient(135deg, rgba(16, 57, 150, 0) 0%, rgb(235 235 235 / 24%) 100%);
+}
+.css-1e7k1nu-MuiTypography-root {
+  color: white;
+}
+.css-v475nq-MuiButtonBase-root-MuiListItemButton-root.active {
+  color: #FFFFFF;
+  background-color:#016533;
+  font-weight: 700;
+}
+.css-l4qrde{
+  background-color: #F9FAFB;
+}
+.css-1g3e3gh-MuiTableCell-root {
+  background-color: #36444e;
+  color: white;
+}
+.css-1g3e3gh-MuiTableCell-root {
+  color: white!important;
+}
+.css-66mibm-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active {
+  color: #FFC10E;
+  
+}
+.css-12vebo6-MuiButtonBase-root-MuiButton-root {
+  background-color:#016533;
+  box-shadow:0 0px 0px 0 rgb(32 101 209 / 24%)!important
+}
+.css-12vebo6-MuiButtonBase-root-MuiButton-root:hover {
+  background-color:#016533;
+  
+}
+.css-a98rds-MuiFormLabel-root-MuiInputLabel-root {
+  color: black;
+}
+.css-znbc8-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 0px;
+  border: none;
+}
+.css-9jnzqh-MuiButtonBase-root-MuiButton-root {
+  background-color:#016533;
+  box-shadow:0 0px 0px 0 rgb(32 101 209 / 24%)!important
+}
+.css-9jnzqh-MuiButtonBase-root-MuiButton-root:hover {
+  background-color:#016533;
+  box-shadow:0 0px 0px 0 rgb(32 101 209 / 24%)!important
+}
+.css-n26ql7-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: white;
+  border: none;
+}
+.css-1p5q5e5-MuiStack-root {
+  border: 1px solid #E8EAEE;
+  padding: 20px;
+}
+.css-1sp8c2x-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  background-color: white;
+  border-radius: 0px;
+}
+.css-ze8lza-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 0px;
+}
+.css-ze8lza-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover {
+  border-radius: 0px;
+  
+}
+.css-1sp8c2x-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input:focus {
+  outline: 0;
+  border-color: #016533;
+}

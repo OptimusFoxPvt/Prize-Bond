@@ -1,0 +1,32 @@
+{
+  "name": "prize-bond",
+  "version": "1.0.0",
+  "description": "Decentralized redeemable, ever lasting, prize bond system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OptimusFoxPvt/Prize-Bond.git"
+  },
+  "author": "OptimusFox <info@optimusfox.com>",
+  "contributors": [
+    "Rosheel Baig <rosheelbaig@gmail.com>",
+    "Muhammad Waqas <waqasaslam445586@gmail.com>",
+    "Ali Wisam <aliwissam73@gmail.com>",
+    "Hadid Ahmed <hadidtaseer@gmail.com>",
+    "Muhammad Mubeen <muhammadmubeen@optimusfox.com>",
+    "M Noraiz Abid <noraizabid12@gmail.com>"
+  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OptimusFoxPvt/Prize-Bond/issues"
+  },
+  "homepage": "https://github.com/OptimusFoxPvt/Prize-Bond#readme"
+}
