@@ -19,7 +19,7 @@ We chose the openzeppelin ERC1155 standard for creating a prize bond for our pro
 Since, in ERC1155, we have an ID of a NFT which points to another mapping and in that mapping we have an address pointing to uint. Similarly, in our prize bond contract, we have a mapping which is the ID of the prize bond, and which points to another mapping where the key is the number of copies and that copy points to a struct where we have stored the details of the owner.
 
 ## Functions Descriptions
-### BuyPB()
+### buyPB()
 In this function, the user will enter the name of the prize bond they want to buy, for example, 500, then simultaneously they will have to send the contract 500 wei or the required amount set by the Owner of the contract to buy the prize bond.
 
 ### claimRewards()
